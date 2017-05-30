@@ -1,0 +1,21 @@
+{
+    "name": "galiasay/laravel-expedia",
+    "description": "Expedia API for Laravel 5",
+    "keywords": ["expedia", "api", "laravel"],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "^5.4",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "authors": [
+        {
+            "name": "Andrey Yakimenko",
+            "email": "andreyakimenko.ua@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Galiasay\\Expedia\\": "src"
+        }
+    }
+}
